@@ -1,0 +1,7 @@
+server:
+  port: 8081
+easyapi:
+  locale: en_US
+  generate-mark-down: true
+  doc-path: E:/Desktop
+

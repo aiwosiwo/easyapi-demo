@@ -1,0 +1,120 @@
+{
+  "groups": [
+    {
+      "name": "easyapi",
+      "type": "com.easyapi.starter.property.DocPlusConfigProperties",
+      "sourceType": "com.easyapi.starter.property.DocPlusConfigProperties"
+    },
+    {
+      "name": "easyapi.cors-config",
+      "type": "com.easyapi.starter.property.CorsConfigProperties",
+      "sourceType": "com.easyapi.starter.property.DocPlusConfigProperties",
+      "sourceMethod": "getCorsConfig()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "easyapi.auto-generate",
+      "type": "java.lang.Boolean",
+      "description": "是否自动生成 默认为true 若为false时,需要加@DocApi注解",
+      "sourceType": "com.easyapi.starter.property.DocPlusConfigProperties"
+    },
+    {
+      "name": "easyapi.classification-level",
+      "type": "java.lang.String",
+      "description": "接口文档密级",
+      "sourceType": "com.easyapi.starter.property.DocPlusConfigProperties"
+    },
+    {
+      "name": "easyapi.cors-config.allow-cors",
+      "type": "java.lang.Boolean",
+      "description": "是否开启跨域",
+      "sourceType": "com.easyapi.starter.property.CorsConfigProperties"
+    },
+    {
+      "name": "easyapi.cors-config.allow-credentials",
+      "type": "java.lang.Boolean",
+      "description": "是否允许证书",
+      "sourceType": "com.easyapi.starter.property.CorsConfigProperties"
+    },
+    {
+      "name": "easyapi.cors-config.allowed-headers",
+      "type": "java.lang.String",
+      "description": "跨域允许请求头",
+      "sourceType": "com.easyapi.starter.property.CorsConfigProperties"
+    },
+    {
+      "name": "easyapi.cors-config.allowed-methods",
+      "type": "java.lang.String",
+      "description": "允许跨域的方法",
+      "sourceType": "com.easyapi.starter.property.CorsConfigProperties"
+    },
+    {
+      "name": "easyapi.cors-config.allowed-origin-patterns",
+      "type": "java.lang.String",
+      "description": "允许跨域的来源模式",
+      "sourceType": "com.easyapi.starter.property.CorsConfigProperties"
+    },
+    {
+      "name": "easyapi.cors-config.max-age",
+      "type": "java.lang.Long",
+      "description": "跨域允许时间",
+      "sourceType": "com.easyapi.starter.property.CorsConfigProperties"
+    },
+    {
+      "name": "easyapi.cors-config.path-pattern",
+      "type": "java.lang.String",
+      "description": "允许跨域请求的域名",
+      "sourceType": "com.easyapi.starter.property.CorsConfigProperties"
+    },
+    {
+      "name": "easyapi.doc-path",
+      "type": "java.lang.String",
+      "description": "文档生成路径",
+      "sourceType": "com.easyapi.starter.property.DocPlusConfigProperties"
+    },
+    {
+      "name": "easyapi.doc-version",
+      "type": "java.lang.String",
+      "description": "文档版本",
+      "sourceType": "com.easyapi.starter.property.DocPlusConfigProperties"
+    },
+    {
+      "name": "easyapi.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否开启文档自动生成 默认开启",
+      "sourceType": "com.easyapi.starter.property.DocPlusConfigProperties"
+    },
+    {
+      "name": "easyapi.generate-mark-down",
+      "type": "java.lang.Boolean",
+      "description": "是否生成markdown文档,默认生成,若为否则仅生成html文档",
+      "sourceType": "com.easyapi.starter.property.DocPlusConfigProperties"
+    },
+    {
+      "name": "easyapi.locale",
+      "type": "java.util.Locale",
+      "description": "生成文档语言,默认为当前系统语言",
+      "sourceType": "com.easyapi.starter.property.DocPlusConfigProperties"
+    },
+    {
+      "name": "easyapi.project-name",
+      "type": "java.lang.String",
+      "description": "项目名称",
+      "sourceType": "com.easyapi.starter.property.DocPlusConfigProperties"
+    },
+    {
+      "name": "easyapi.project-path",
+      "type": "java.lang.String",
+      "description": "项目路径",
+      "sourceType": "com.easyapi.starter.property.DocPlusConfigProperties"
+    },
+    {
+      "name": "easyapi.watermark",
+      "type": "java.lang.String",
+      "description": "水印",
+      "sourceType": "com.easyapi.starter.property.DocPlusConfigProperties"
+    }
+  ],
+  "hints": []
+}
