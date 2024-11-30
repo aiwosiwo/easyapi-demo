@@ -8,8 +8,7 @@
     {
       "name": "easyapi.cors-config",
       "type": "com.easyapi.starter.property.CorsConfigProperties",
-      "sourceType": "com.easyapi.starter.property.DocPlusConfigProperties",
-      "sourceMethod": "getCorsConfig()"
+      "sourceType": "com.easyapi.starter.property.DocPlusConfigProperties"
     }
   ],
   "properties": [
@@ -20,51 +19,38 @@
       "sourceType": "com.easyapi.starter.property.DocPlusConfigProperties"
     },
     {
-      "name": "easyapi.classification-level",
-      "type": "java.lang.String",
-      "description": "接口文档密级",
-      "sourceType": "com.easyapi.starter.property.DocPlusConfigProperties"
-    },
-    {
       "name": "easyapi.cors-config.allow-cors",
       "type": "java.lang.Boolean",
-      "description": "是否开启跨域",
       "sourceType": "com.easyapi.starter.property.CorsConfigProperties"
     },
     {
       "name": "easyapi.cors-config.allow-credentials",
       "type": "java.lang.Boolean",
-      "description": "是否允许证书",
       "sourceType": "com.easyapi.starter.property.CorsConfigProperties"
     },
     {
       "name": "easyapi.cors-config.allowed-headers",
       "type": "java.lang.String",
-      "description": "跨域允许请求头",
       "sourceType": "com.easyapi.starter.property.CorsConfigProperties"
     },
     {
       "name": "easyapi.cors-config.allowed-methods",
       "type": "java.lang.String",
-      "description": "允许跨域的方法",
       "sourceType": "com.easyapi.starter.property.CorsConfigProperties"
     },
     {
       "name": "easyapi.cors-config.allowed-origin-patterns",
       "type": "java.lang.String",
-      "description": "允许跨域的来源模式",
       "sourceType": "com.easyapi.starter.property.CorsConfigProperties"
     },
     {
       "name": "easyapi.cors-config.max-age",
       "type": "java.lang.Long",
-      "description": "跨域允许时间",
       "sourceType": "com.easyapi.starter.property.CorsConfigProperties"
     },
     {
       "name": "easyapi.cors-config.path-pattern",
       "type": "java.lang.String",
-      "description": "允许跨域请求的域名",
       "sourceType": "com.easyapi.starter.property.CorsConfigProperties"
     },
     {

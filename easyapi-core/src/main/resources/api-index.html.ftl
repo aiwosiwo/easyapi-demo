@@ -1,4 +1,3 @@
-<!-- licence1: Apache-2.0 licence2: AGPL-3.0  from1: japidoc from2:doc-apis originated -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +19,7 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="git@github.com:aiwosiwo/easyapi-demo.git" target="_blank">Home</a></li>
+                <li><a href="https://github.com/aiwosiwo/easyapi-demo" target="_blank">GitHub Address</a></li>
             </ul>
         </div>
     </div>
@@ -102,26 +101,6 @@
         }
     ]).on('autocomplete:selected', function (event, suggestion, dataset, context) {
         self.location = suggestion.url;
-    });
-
-    let links = document.querySelectorAll('.in a');
-    links.forEach(link => {
-        link.addEventListener('click', function (event) {
-            const storedValue = localStorage.getItem('openDocApi');
-            const now = new Date().getTime();
-            if (storedValue) {
-                const storedObject = JSON.parse(storedValue);
-                if (storedObject.expiry > now) {
-                    return;
-                }
-            }
-            // 打开新窗口
-            window.open('https://www.doc-apis.com', '_blank');
-
-            // 记录点击时间并设置过期时间为7天
-            const expiry = now + 7 * 24 * 60 * 60 * 1000; // 7天后
-            localStorage.setItem('openDocApi', JSON.stringify({expiry: expiry}));
-        });
     });
 </script>
 </body>

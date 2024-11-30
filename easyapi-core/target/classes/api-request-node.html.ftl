@@ -1,4 +1,3 @@
-<!-- licence1: Apache-2.0 licence2: AGPL-3.0  from1: japidoc from2:doc-apis originated -->
 <h2 id="${requestNode.methodName}"><a href="#">${(requestNode.description)!''} <#if requestNode.deprecated><span
                 class="badge">${i18n.getMessage('deprecated')}</span></#if></a></h2>
 <#if requestNode.supplement??>

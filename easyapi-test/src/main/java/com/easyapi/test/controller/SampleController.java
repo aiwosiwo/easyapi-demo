@@ -1,5 +1,6 @@
 package com.easyapi.test.controller;
 
+import com.easyapi.core.annotation.DocIgnore;
 import com.easyapi.test.model.ApiResult;
 import com.easyapi.test.model.DocQuery;
 import com.easyapi.test.model.Document;
@@ -17,7 +18,6 @@ import java.util.Collections;
 public class SampleController {
     /**
      * Retrieve document list by pagination
-     *
      * @param docQuery Document pagination query parameters
      * @return Paginated data
      */
@@ -33,7 +33,6 @@ public class SampleController {
 
     /**
      * Get document details
-     *
      * @param documentId Document ID
      * @return Document Details
      */
@@ -48,7 +47,6 @@ public class SampleController {
 
     /**
      * Update document
-     *
      * @param document document information
      * @return Update Results
      */
@@ -59,14 +57,12 @@ public class SampleController {
 
     /**
      * remove document
-     *
      * @param documentId Document ID
      * @return Delete result
      */
+
     @DeleteMapping("/delDocument")
     public ApiResult<Boolean> delDocument(@RequestParam Long documentId) {
         return ApiResult.success(Boolean.TRUE);
     }
-
-
 }

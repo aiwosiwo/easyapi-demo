@@ -1,4 +1,3 @@
-<!-- licence1: Apache-2.0 licence2: AGPL-3.0  from1: japidoc from2:doc-apis originated -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,6 +16,11 @@
             <a class="navbar-brand" href="../index.html">
                 <img src="../img/logo.png" style="height: 100%">
             </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://github.com/aiwosiwo/easyapi-demo" target="_blank">GitHub Address</a></li>
+            </ul>
         </div>
     </div>
 </nav>

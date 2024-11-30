@@ -27,7 +27,6 @@ public class AutoConfig implements InitializingBean {
     @Override
     public void afterPropertiesSet() throws Exception {
         if (!docPlusConfigProperties.isEnable()) {
-            // 未开启, 直接不生成
             LogUtils.info("easyapi not enabled, won't generate docs");
             return;
         }
