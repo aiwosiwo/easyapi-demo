@@ -40,8 +40,8 @@ public class SampleController {
     public ApiResult<Document> document(@RequestParam Long documentId) {
         Document document = new Document();
         document.setId(1L);
-        document.setTitle("老汉");
-        document.setContent("推*");
+        document.setTitle("breaking news");
+        document.setContent("breaking content");
         return ApiResult.success(document);
     }
 
@@ -60,7 +60,6 @@ public class SampleController {
      * @param documentId Document ID
      * @return Delete result
      */
-
     @DeleteMapping("/delDocument")
     public ApiResult<Boolean> delDocument(@RequestParam Long documentId) {
         return ApiResult.success(Boolean.TRUE);

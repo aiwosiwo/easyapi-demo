@@ -3,7 +3,7 @@ server:
 easyapi:
   enable: true
   locale: en_US
-  generate-mark-down: false
+  generate-mark-down: true
   doc-path: E:/Desktop
   doc-version: 1.0.1
   auto-generate: true
